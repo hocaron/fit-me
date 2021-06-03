@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="static/css/exam_default.css" />
+    <title>캡스톤 데모</title>
+    <meta charset="utf-8" />
+    <link rel=" shortcut icon" href="favicon.ico" />
+    <link rel="icon" href="favicon.ico" />
+    <style>
+      img {
+        width: 180px;
+        position: absolute;
+        bottom: 20px;
+        right: 1700px;
+      }
+      @import url("https://fonts.googleapis.com/css2?family=Jua&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap");
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <div class="small-box">
+        <form action="/post/option" method="post">
+          <div class="title">추천 받고 싶은 운동 추천코스 시간</div>
+          <div class="content__">
+            <div class="content__op">
+              <input type="radio" id="up" name="option" value="up" />
+              <label for="up">30분 이상</label>
+            </div>
+            <div class="content__op">
+              <input type="radio" id="down" name="option" value="down" />
+              <label for="down">30분 이하</label>
+            </div>
+          </div>
+          <div class="title___">집중적으로 운동하고 싶은 부위</div>
+          <div class="content__">
+            <div class="content__op">
+              <input type="radio" id="arm" name="option" value="arm" />
+              <label for="arm">상체 위주</label>
+            </div>
+            <div class="content__op">
+              <input type="radio" id="leg" name="option" value="leg" />
+              <label for="leg">하체 위주</label>
+            </div>
+            <div class="content__op">
+              <input type="radio" id="all" name="option" value="all" />
+              <label for="all">전신 위주</label>
+            </div>
+          </div>
+        </div>
+          <input type="submit" value="정보 넘기기" />
+        </form>
+      </div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/9a537ce525.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

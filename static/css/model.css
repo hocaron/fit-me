@@ -1,0 +1,75 @@
+body {
+  background-color: #e9c47a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: -1;
+  position: relative;
+  color: rgb(82, 79, 79);
+}
+
+canvas {
+  z-index: 3;
+  position: absolute;
+  padding: 90px;
+  padding-left: 80px;
+  border-radius: 40px;
+  padding-right: 700px;
+  background-color: #e4d9c3;
+  position: absolute;
+  left: 60px;
+  top: 50px;
+}
+
+p {
+  position: absolute;
+  z-index: 5;
+}
+
+#exercise_name {
+  margin-top: 70px;
+  font-size: 40px;
+  font-weight: 900;
+  margin-bottom: 30px;
+  margin-left: -110px;
+}
+
+#image {
+  position: absolute;
+  right: 350px;
+  top: 140px;
+}
+
+#start {
+  position: absolute;
+  left: 140px;
+  top: 123px;
+  transform: rotate(0deg);
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}
+
+#method {
+  position: absolute;
+  right: 340px;
+  top: 623px;
+  font-size: 25px;
+}
+
+#count {
+  font-size: 40px;
+  position: absolute;
+  right: 140px;
+  top: 323px;
+}
+
+#mention {
+  font-size: 40px;
+  position: absolute;
+  right: 140px;
+  top: 323px;
+}

@@ -1,0 +1,39 @@
+a {
+  text-decoration-line: none;
+  color: white;
+}
+
+body {
+  background-image: url("https://cdn.dribbble.com/users/2309351/screenshots/6831637/workout_4x.png?compress=1&resize=1000x750");
+  background-size: cover;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  font-weight: 900;
+  color: white;
+  font-size: 170px;
+  margin-top: 100px;
+  text-shadow: #533d4a 1px 1px, #533d4a 2px 2px, #533d4a 3px 3px,
+    #533d4a 4px 4px;
+}
+
+.confirm__user {
+  font-family: "Noto Sans KR", sans-serif;
+  text-align: center;
+  margin-top: 380px;
+  font-size: 35px;
+  color: white;
+  font-weight: 500;
+}
+
+.confirm__user_1:hover {
+  color: #8dc9ca;
+}
+
+.confirm__user_2:hover {
+  color: #fbba2a;
+}

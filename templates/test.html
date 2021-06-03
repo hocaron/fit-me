@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="static/css/exam_default.css" />
+    <title>캡스톤 데모</title>
+    <meta charset="utf-8" />
+    <link rel=" shortcut icon" href="favicon.ico" />
+    <link rel="icon" href="favicon.ico" />
+    <style>
+      img {
+        width: 180px;
+        position: absolute;
+        bottom: 20px;
+        right: 1700px;
+      }
+      @import url("https://fonts.googleapis.com/css2?family=Jua&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap");
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <div class="small-box">
+        <form action="/post" method="post">
+          <div class="title">{{ques}}</div>
+          <div class="content">
+            <div class="content__op">
+              <input type="radio" id="ans1" name="ans" value="1" />
+              <label for="ans1">전혀 아니다</label>
+            </div>
+            <div class="content__op">
+              <input type="radio" id="ans2" name="ans" value="2" />
+              <label for="ans2">별로 아니다</label>
+            </div>
+            <div class="content__op">
+              <input type="radio" id="ans3" name="ans" value="3" />
+              <label for="ans3">중간이다</label>
+            </div>
+            <div class="content__op">
+              <input type="radio" id="ans4" name="ans" value="4" />
+              <label for="ans4">약간 그렇다</label>
+            </div>
+            <div class="content__op">
+              <input type="radio" id="ans5" name="ans" value="5" />
+              <label for="ans5">매우 그렇다</label>
+            </div>
+          </div>
+          <input type="submit" value="정보 넘기기" />
+        </form>
+      </div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/9a537ce525.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
