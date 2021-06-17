@@ -5,8 +5,8 @@
 In this project, for users who want to improve their overall health, a recommendation system that receives the user's personality factor as an input value and recommends an exercise course that combines various exercise postures, and posenet-based motion recognition that prevents the risk of injury due to incorrect posture We want to implement a service that provides.
 
 ### 💡Recommendation system
-* **K-means clustering 알고리즘**
-* **CF 알고리즘**  
+* **K-means clustering algorithm**
+* **CF algorithm**  
 
 ### 💡Pose analysis
 * **PoseNet**
@@ -23,9 +23,9 @@ trunkLean =  -arctangent2(hip.x,hip.y,shoulder.x,shoulder.y)
 ![KakaoTalk_20210602_223437356](https://user-images.githubusercontent.com/66551410/122398109-85c0cc80-cfb4-11eb-838c-437f7cceb9f8.gif)
 
 ## Function
-* **Big 5 model 심리테스트**
-* **자동 Timer**
-* **자동 Count**
+* **Big 5 personality test**
+* **Auto Timer**
+* **Auto Count**
 
 ## Flask 실행
 1. Visual Code Studio에서 가상환경 폴더 설정  
