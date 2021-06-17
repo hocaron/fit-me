@@ -1,8 +1,8 @@
 # FitMe
 
-## Idea
+## Summary
 ### 🧎‍♀️개인화 추천 플랫폼
-해당 프로젝트에서는 전반적인 건강증진을 하고자 하는 사용자들을 대상으로, 사용자의 성격 요인을 입력값으로 받아 다양한 운동 자세를 조합한 운동 코스를 추천해주는 추천시스템과 잘못된 자세에 따른 부상 위험을 방지해주는 Posenet기반 모션 인식을 제공하는 서비스를 구현하고자 한다.
+#### In this project, for users who want to improve their overall health, a recommendation system that receives the user's personality factor as an input value and recommends an exercise course that combines various exercise postures, and posenet-based motion recognition that prevents the risk of injury due to incorrect posture We want to implement a service that provides.
 
 ### 💡추천 시스템
 * **K-means clustering 알고리즘**
@@ -16,13 +16,13 @@ kneeFlexion=360-arctangent2(knee.x,knee.y,ankle.x,ankle.y)+arctangent2(knee.x,kn
 trunkLean =  -arctangent2(hip.x,hip.y,shoulder.x,shoulder.y)
 ```
 
-### 동작 과정
+## 동작 과정
 ![image](https://user-images.githubusercontent.com/66551410/122395548-121dc000-cfb2-11eb-9d27-d1061a6db072.png)
 
-### Demo
+## Demo
 ![KakaoTalk_20210602_223437356](https://user-images.githubusercontent.com/66551410/122398109-85c0cc80-cfb4-11eb-838c-437f7cceb9f8.gif)
 
-### 기능
+## 기능
 * **Big 5 model 심리테스트**
 * **자동 Timer**
 * **자동 Count**
