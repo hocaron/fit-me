@@ -27,7 +27,7 @@ trunkLean =  -arctangent2(hip.x,hip.y,shoulder.x,shoulder.y)
 * **자동 Timer**
 * **자동 Count**
 
-## Django 실행
+## Flask 실행
 1. Visual Code Studio에서 가상환경 폴더 설정  
 2. ```flask run```
 
