@@ -1,7 +1,7 @@
 # FitMe
 
 ## Summary
-### 🧎‍♀️개인화 추천 플랫폼
+### 🧎‍♀️Personalized recommendation platform
 In this project, for users who want to improve their overall health, a recommendation system that receives the user's personality factor as an input value and recommends an exercise course that combines various exercise postures, and posenet-based motion recognition that prevents the risk of injury due to incorrect posture We want to implement a service that provides.
 
 ### 💡Recommendation system
