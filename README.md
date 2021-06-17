@@ -22,12 +22,14 @@ trunkLean =  -arctangent2(hip.x,hip.y,shoulder.x,shoulder.y)
 ### Demo
 ![KakaoTalk_20210602_223437356](https://user-images.githubusercontent.com/66551410/122398109-85c0cc80-cfb4-11eb-838c-437f7cceb9f8.gif)
 
-
-
 ### 기능
 * **Big 5 model 심리테스트**
 * **자동 Timer**
 * **자동 Count**
+
+## Django 실행
+1. Visual Code Studio에서 가상환경 폴더 설정  
+2. ```flask run```
 
 ## Reference
 * Personality correlates of physical activity  
