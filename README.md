@@ -36,6 +36,7 @@ trunkLean =  -arctangent2(hip.x,hip.y,shoulder.x,shoulder.y)
 * **Auto Count**
 
 ## Work
+- [x] DB구축
 - [x] flask 환경설정
 - [ ] 로그인 API 구현
 - [ ] 사용자 DB 생성
